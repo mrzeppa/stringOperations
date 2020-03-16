@@ -1,0 +1,77 @@
+1: sudo apt-get install maven
+
+2: apt install gradle
+
+3:  mvn archetype:generate -DgroupId=com.journaldev.java -DartifactId=HelloMaven -DarchetypeArtifactId=maven-archetype-quickstart
+cd HelloMaven
+
+do pom dodac
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+
+mvn compile
+
+4: zmienic wersje na 4.13-beta-1 i mvn compile
+
+5: dodac:
+
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.6.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.6.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-params</artifactId>
+    <version>5.6.0</version>
+    <scope>test</scope>
+</dependency>
+
+mvn compile
+
+cd ..
+
+
+
+6: mvn package
+przejsc do target
+java -cp HelloMaven-1.0-SNAPSHOT.jar HelloMaven.App > result.txt
+
+7. 
+apt install Gradle (ja juz nie powiem nic na temat nie zainstalowania gradle'a w zadaniu o gradlu)
+mkdir HelloGradle
+cd HelloGradle
+gradle init
+2 3 1 1 enter enter
+gradle run
+
+8.
+
+apt install gradle ( :) )
+mkdir FizzBuzz
+przeniesc pliki
+dependency:     testImplementation('org.junit.jupiter:junit-jupiter-api:5.4.2')
+    testRuntime('org.junit.jupiter:junit-jupiter-engine:5.4.2')
+	
+	
+9.
+pom - https://pastebin.com/raw/AfUKa1D2
+
+mvn test
+
+
+

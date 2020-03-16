@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="StringOperationsTest" time="0.129" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Mariusz\Desktop\pro\target\test-classes;C:\Users\Mariusz\Desktop\pro\target\classes;C:\Users\Mariusz\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Mariusz\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Mariusz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Mariusz\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Mariusz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Mariusz\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Mariusz\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Mariusz\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0\junit-jupiter-5.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="user.country.format" value="PL"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="D:\Programy\Project\JDK12\bin"/>
+    <property name="sun.java.command" value="C:\Users\Mariusz\AppData\Local\Temp\surefire6512434381271125817\surefirebooter2632497884383508257.jar C:\Users\Mariusz\AppData\Local\Temp\surefire6512434381271125817 2020-03-16T13-01-44_070-jvmRun1 surefire4305543508382949209tmp surefire_07683329235430549300tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Mariusz\Desktop\pro\target\test-classes;C:\Users\Mariusz\Desktop\pro\target\classes;C:\Users\Mariusz\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\Mariusz\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Mariusz\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\Mariusz\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\Mariusz\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\Mariusz\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Mariusz\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\Mariusz\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0\junit-jupiter-5.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Mariusz"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="D:\Programy\Project\JDK12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Mariusz\Desktop\pro"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mariusz\AppData\Local\Temp\surefire6512434381271125817\surefirebooter2632497884383508257.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="Mariusz"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Mariusz\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mariusz\AppData\Local\Temp\"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="C:\Users\Mariusz\Desktop\pro"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="pl"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Programy\Project\JDK12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Mariusz\Desktop\cmder\bin;C:\Users\Mariusz\Desktop\cmder\vendor\bin;C:\Users\Mariusz\Desktop\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\Users\Mariusz\Desktop\cmder\vendor\conemu-maximus5;C:\Users\Mariusz\Desktop\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Programy\Putty\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;D:\Programy\Project\Node\;D:\Programy\Project\apache-maven-3.6.2\bin;D:\Programy\exercism;D:\Programy\Ruby26\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\Programy\Project\MySQL\bin;C:\Users\Mariusz\AppData\Roaming\npm;D:\Programy\Microsoft VS Code\bin;D:\Programy\exercism;D:\Programy\Ruby26\bin;C:\Users\Mariusz\.dotnet\tools;D:\Programy\mingw\bin;C:\Users\Mariusz\Desktop\cmder\vendor\git-for-windows\cmd;C:\Users\Mariusz\Desktop\cmder\vendor\git-for-windows\mingw64\bin;C:\Users\Mariusz\Desktop\cmder\vendor\git-for-windows\usr\bin;C:\Users\Mariusz\Desktop\cmder;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="concatTest" classname="StringOperationsTest" time="0.037"/>
+  <testcase name="reverseTestWithSpecialCharacters" classname="StringOperationsTest" time="0"/>
+  <testcase name="palindromeTestWithSpecialCharacters" classname="StringOperationsTest" time="0.008"/>
+  <testcase name="palindromeTestEmptyString" classname="StringOperationsTest" time="0.005"/>
+  <testcase name="reverseTestWithIntValue" classname="StringOperationsTest" time="0.002"/>
+  <testcase name="notPalindromeTestWithSpecialCharacters" classname="StringOperationsTest" time="0.002"/>
+  <testcase name="concatTestWithFirstEmptyString" classname="StringOperationsTest" time="0.003"/>
+  <testcase name="reverseTestWithEmptyString" classname="StringOperationsTest" time="0.005"/>
+  <testcase name="concatWithFirstNullString" classname="StringOperationsTest" time="0.001"/>
+  <testcase name="reverseTestWithNullString" classname="StringOperationsTest" time="0.001"/>
+  <testcase name="concatTestWithSecondEmptyString" classname="StringOperationsTest" time="0.001"/>
+  <testcase name="concatTestWithNullStrings" classname="StringOperationsTest" time="0.001"/>
+  <testcase name="notPalindromeTest" classname="StringOperationsTest" time="0"/>
+  <testcase name="palindromeTestWithNullString" classname="StringOperationsTest" time="0.001"/>
+  <testcase name="concatWithSecondNullString" classname="StringOperationsTest" time="0.001"/>
+  <testcase name="palindromeTest" classname="StringOperationsTest" time="0.001"/>
+  <testcase name="reverseTest" classname="StringOperationsTest" time="0"/>
+  <testcase name="palindromeTestWithOneLetter" classname="StringOperationsTest" time="0.001"/>
+</testsuite>
